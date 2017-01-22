@@ -1,17 +1,27 @@
-<head>
-	<link type="text/css" href="CSS.css"></link>
-	<link type="text/javascript" href="JS.js"></link>
-</head>
-<body>
-	<div id="bodyDiv">
-		<p style="font-size: 30px">MadKRAM</p>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
+		<script src="JS.js"></script>
+		<script src="resampler2.js"></script>
+		<script src="ui2.js"></script>
+		<script src="audio_handlers2.js"></script>
+		<script src="main2.js"></script>
 
-		<div id="inputDiv">
-			<input type="text" id="input"></input>
-		</div>
-		
-		<div id="text">
-			Text paragraph
-		</div>
-	</div>
-</body>
+    </head>
+    <body>
+        <div id="bodyDiv">
+            <p style="font-size: 30px">MadKRAM</p>
+
+            <div id="inputDiv">
+                <p id="grammar"></p>
+                <input type="text" id="input"></input>
+                <button type="submit" id="enter" onclick="enterButton()">Enter</button>
+            </div>
+            
+            <div id="text">
+
+            </div>
+        </div>
+    </body>
+</html>
